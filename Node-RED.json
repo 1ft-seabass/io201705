@@ -1,1 +1,159 @@
-[{"id":"d1ee6e2d.0dfd9","type":"serial out","z":"5b828e.da6c2d74","name":"","serial":"b63faf4a.ffc72","x":812,"y":376,"wires":[]},{"id":"d19e306.a3cafd","type":"inject","z":"5b828e.da6c2d74","name":"ド","topic":"","payload":"0","payloadType":"str","repeat":"","crontab":"","once":false,"x":639,"y":245,"wires":[["d1ee6e2d.0dfd9"]]},{"id":"96a77f3a.a18cb","type":"inject","z":"5b828e.da6c2d74","name":"レ","topic":"","payload":"1","payloadType":"str","repeat":"","crontab":"","once":false,"x":638,"y":295,"wires":[["d1ee6e2d.0dfd9"]]},{"id":"14a34594.191f1a","type":"inject","z":"5b828e.da6c2d74","name":"ミ","topic":"","payload":"2","payloadType":"str","repeat":"","crontab":"","once":false,"x":638,"y":340,"wires":[["d1ee6e2d.0dfd9"]]},{"id":"6b31fbd4.e2a174","type":"inject","z":"5b828e.da6c2d74","name":"ファ","topic":"","payload":"3","payloadType":"str","repeat":"","crontab":"","once":false,"x":638,"y":390,"wires":[["d1ee6e2d.0dfd9"]]},{"id":"1a23f067.1f63b","type":"inject","z":"5b828e.da6c2d74","name":"ソ","topic":"","payload":"4","payloadType":"str","repeat":"","crontab":"","once":false,"x":639,"y":438,"wires":[["d1ee6e2d.0dfd9"]]},{"id":"648cfb8d.7f9bc4","type":"inject","z":"5b828e.da6c2d74","name":"ラ","topic":"","payload":"5","payloadType":"str","repeat":"","crontab":"","once":false,"x":639,"y":481,"wires":[["d1ee6e2d.0dfd9"]]},{"id":"f4bdc099.805e","type":"inject","z":"5b828e.da6c2d74","name":"シ","topic":"","payload":"6","payloadType":"str","repeat":"","crontab":"","once":false,"x":639,"y":532,"wires":[["d1ee6e2d.0dfd9"]]},{"id":"b63faf4a.ffc72","type":"serial-port","z":"","serialport":"/dev/ttyACM0","serialbaud":"9600","databits":"8","parity":"none","stopbits":"1","newline":"\\n","bin":"false","out":"char","addchar":false}]
+[
+    {
+        "id": "d1ee6e2d.0dfd9",
+        "name": "",
+        "serial": "b63faf4a.ffc72",
+        "type": "serial out",
+        "wires": [],
+        "x": 812,
+        "y": 376,
+        "z": "5b828e.da6c2d74"
+    },
+    {
+        "crontab": "",
+        "id": "d19e306.a3cafd",
+        "name": "ド",
+        "once": false,
+        "payload": "0",
+        "payloadType": "str",
+        "repeat": "",
+        "topic": "",
+        "type": "inject",
+        "wires": [
+            [
+                "d1ee6e2d.0dfd9"
+            ]
+        ],
+        "x": 639,
+        "y": 245,
+        "z": "5b828e.da6c2d74"
+    },
+    {
+        "crontab": "",
+        "id": "96a77f3a.a18cb",
+        "name": "レ",
+        "once": false,
+        "payload": "1",
+        "payloadType": "str",
+        "repeat": "",
+        "topic": "",
+        "type": "inject",
+        "wires": [
+            [
+                "d1ee6e2d.0dfd9"
+            ]
+        ],
+        "x": 638,
+        "y": 295,
+        "z": "5b828e.da6c2d74"
+    },
+    {
+        "crontab": "",
+        "id": "14a34594.191f1a",
+        "name": "ミ",
+        "once": false,
+        "payload": "2",
+        "payloadType": "str",
+        "repeat": "",
+        "topic": "",
+        "type": "inject",
+        "wires": [
+            [
+                "d1ee6e2d.0dfd9"
+            ]
+        ],
+        "x": 638,
+        "y": 340,
+        "z": "5b828e.da6c2d74"
+    },
+    {
+        "crontab": "",
+        "id": "6b31fbd4.e2a174",
+        "name": "ファ",
+        "once": false,
+        "payload": "3",
+        "payloadType": "str",
+        "repeat": "",
+        "topic": "",
+        "type": "inject",
+        "wires": [
+            [
+                "d1ee6e2d.0dfd9"
+            ]
+        ],
+        "x": 638,
+        "y": 390,
+        "z": "5b828e.da6c2d74"
+    },
+    {
+        "crontab": "",
+        "id": "1a23f067.1f63b",
+        "name": "ソ",
+        "once": false,
+        "payload": "4",
+        "payloadType": "str",
+        "repeat": "",
+        "topic": "",
+        "type": "inject",
+        "wires": [
+            [
+                "d1ee6e2d.0dfd9"
+            ]
+        ],
+        "x": 639,
+        "y": 438,
+        "z": "5b828e.da6c2d74"
+    },
+    {
+        "crontab": "",
+        "id": "648cfb8d.7f9bc4",
+        "name": "ラ",
+        "once": false,
+        "payload": "5",
+        "payloadType": "str",
+        "repeat": "",
+        "topic": "",
+        "type": "inject",
+        "wires": [
+            [
+                "d1ee6e2d.0dfd9"
+            ]
+        ],
+        "x": 639,
+        "y": 481,
+        "z": "5b828e.da6c2d74"
+    },
+    {
+        "crontab": "",
+        "id": "f4bdc099.805e",
+        "name": "シ",
+        "once": false,
+        "payload": "6",
+        "payloadType": "str",
+        "repeat": "",
+        "topic": "",
+        "type": "inject",
+        "wires": [
+            [
+                "d1ee6e2d.0dfd9"
+            ]
+        ],
+        "x": 639,
+        "y": 532,
+        "z": "5b828e.da6c2d74"
+    },
+    {
+        "addchar": false,
+        "bin": "false",
+        "databits": "8",
+        "id": "b63faf4a.ffc72",
+        "newline": "\n",
+        "out": "char",
+        "parity": "none",
+        "serialbaud": "9600",
+        "serialport": "/dev/ttyACM0",
+        "stopbits": "1",
+        "type": "serial-port",
+        "z": ""
+    }
+]
